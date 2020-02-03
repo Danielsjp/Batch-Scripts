@@ -1,0 +1,17 @@
+H:\>cmd.exe
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+H:\>exit /b 1
+
+H:\>echo %errorlevel%
+1
+
+H:\>cmd.exe
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+H:\>exit /b 2
+
+H:\>echo %errorlevel%
+2
